@@ -1,3 +1,4 @@
+# Camel Case
 def main():
     camelcase = input("Camelcase: ").strip()
 
