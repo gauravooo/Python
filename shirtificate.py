@@ -9,7 +9,7 @@ class Shirtificate(FPDF):
         super().__init__()
         self.name = name
 
-    def generate(self):
+    def generate(self): # Function to generate the shirtificate PDF
         """Create and output the shirtificate PDF."""
         self.add_page()
         self.set_font("helvetica", "B", 45)
